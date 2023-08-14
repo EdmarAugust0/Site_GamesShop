@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, 
+.subtitulo,
+section h2,
+section h3,
+form button {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+body, input, textarea{
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho {
+    padding: 16px 0;
+    background-color: #182C61;
+    color: #ECF0F1;
+}
+
+.links {
+    display: inline;
+    margin-left: 16px;
+}
+
+.links-link {
+    color: #ECF0F1;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logos img, 
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.logos li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    /* serviu para sobrescrever o "align-items: center;" para começar mais encima e não no meio */
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: #182C61;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.imagem {
+    margin-right: 32px;
+}
+
+#contact .container{
+    display: block;
+}
+
+.meios-contatos {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #182C61;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2e4da1;
+}
+
+input:focus, textarea:focus {
+    /* "Focus" é quando a área do formulário estive me foco, e o comando abaixo é para colorir a borda que fica quando está em foco */
+    outline-color:#182C61;
+}
+
+footer {
+    background-color:#182C61;
+    color: #ECF0F1;
+    padding: 16px 0;
+}
